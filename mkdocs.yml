@@ -1,0 +1,65 @@
+site_name: プログラミング講義での AI 利用（2025 春）
+site_author: Ryo Suzuki
+site_description: "プログラミング講義での AI 利用" 
+
+# Repository
+repo_name: Reputeless/using-ai
+repo_url: https://github.com/Reputeless/using-ai
+
+# Theme
+theme:
+  name: material
+  language: ja
+  font:
+    text: IBM Plex Sans JP
+    code: Roboto Mono
+  palette:
+    scheme: lecture
+  logo: 'assets/images/code-white-48dp.svg'
+  features:
+  - navigation.instant
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  plugins:
+  - search:
+      lang:
+        - ja
+extra_css:
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+  - stylesheets/extra.css
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.snippets
+  - toc:
+      permalink: true
+      toc_depth: 3
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Page tree
+nav:
+  - ガイドライン: index.md
