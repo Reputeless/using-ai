@@ -271,7 +271,7 @@
 	#include <stdio.h>
 	#include <math.h>
 
-	int main()
+	int main(void)
 	{
 		double x;
 		scanf("%lf", &x);
@@ -288,7 +288,7 @@
 	#include <stdio.h>
 	#include <math.h>
 
-	int main()
+	int main(void)
 	{
 		double x;
 		scanf("%lf", &x);
@@ -309,7 +309,7 @@
 	#include <stdio.h>
 	#include <math.h>
 
-	int main()
+	int main(void)
 	{
 		double x;
 		scanf("%lf", &x);
@@ -362,7 +362,7 @@ AI の使い方も覚えないといけないのは大変だー。
 ```c
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	int n;
 	scanf("%d", &n);
@@ -501,7 +501,7 @@ int main(void)
 ````txt title="提出例"
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	int a, b;
 	scanf("%d %d", &a, &b);
