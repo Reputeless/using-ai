@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | [**ChatGPT** :material-open-in-new:](https://chatgpt.com/){:target="_blank"}<br>（チャット・ジーピーティー） | OpenAI<br>（オープンエーアイ） | 文章生成や情報提供に優れた AI チャットボット |
 | [**Claude** :material-open-in-new:](https://www.anthropic.com/claude){:target="_blank"}<br>（クロード） | Anthropic<br>（アンソロピック） | ChatGPT と同様に、会話やコンテンツ作成に特化した AI チャットボット |
-| [**Grok** :material-open-in-new:](https://grok.com/){:target="_blank"}<br>（グロック） | xAI<br>（エックスエーアイ） | X（旧 Twitetr）プラットフォームのデータの活用に強みを持つ AI チャットボット |
+| [**Grok** :material-open-in-new:](https://grok.com/){:target="_blank"}<br>（グロック） | xAI<br>（エックスエーアイ） | X（旧 Twitter）プラットフォームのデータの活用に強みを持つ AI チャットボット |
 | [**Gemini** :material-open-in-new:](https://gemini.google.com/){:target="_blank"}<br>（ジェミニ） | Google<br>（グーグル） | Google が開発・提供する AI チャットボット |
 
 
